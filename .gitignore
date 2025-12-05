@@ -1,0 +1,58 @@
+# ============================
+# PYTHON / DJANGO
+# ============================
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+*.env
+
+# Django static & media (if collected)
+static/
+media/
+
+# ============================
+# NODE / VUE / FRONTEND
+# ============================
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# DOCKER
+# ============================
+
+# Persistent PostgreSQL volume
+postgres_data/
+
+# Docker artifacts
+*.tar
+*.img
+
+# IDE / EDITOR TRASH
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-SPECIFIC TRASH
+# ============================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# ============================
+# TEMPORARY & MISC
+# ============================
+*.tmp
+*.bak
+*.orig
