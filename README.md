@@ -32,7 +32,9 @@ cd traffic-accident-prediction
 ```
 
 ### 2. Запустить контейнеры
+```
 docker-compose up --build
+```
 
 После сборки появятся три сервиса:
 
